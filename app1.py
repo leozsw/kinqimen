@@ -46,7 +46,7 @@ with st.sidebar:
    
 
 with pan:
-    st.header('堅奇門')
+    st.header('奇門排盘')
     eg = list("巽離坤震兌艮坎乾")
     now = datetime.datetime.now(pytz.timezone('Asia/Hong_Kong'))
     ny = now.year
