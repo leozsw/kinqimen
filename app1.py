@@ -9,7 +9,7 @@ import kinqimen
 from kinliuren import kinliuren
 import config
 
-BASE_URL_KINLIUREN = 'https://raw.githubusercontent.com/kentang2017/kinliuren/master/'
+#BASE_URL_KINLIUREN = 'https://raw.githubusercontent.com/kentang2017/kinliuren/master/'
 
 @contextmanager
 def st_capture(output_func):
