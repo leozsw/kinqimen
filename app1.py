@@ -21,13 +21,9 @@ def st_capture(output_func):
             return ret
         stdout.write = new_write
         yield
-        
- 
-
-
 
 st.set_page_config(layout="wide",page_title="奇門遁甲排盘-wzs test 202504")
-pan = st.tabs([' 🧮排盤 ' ])
+pan,log = st.tabs([' 🧮排盤 ',' ' ])
 with st.sidebar:
     pp_date=st.date_input("日期",pdlm.now(tz='Asia/Shanghai').date())
     pp_time = st.text_input('輸入時間(如: 18:30)', '')
